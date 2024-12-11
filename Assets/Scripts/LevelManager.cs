@@ -2,22 +2,51 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class LevelManager : MonoBehaviour
 {
-    // MENU VARIABLES -- Assigned in Unity
+    // MENU VARIABLES -- Assigned in Unity Interface
     public GameObject levelComplete;
-    // other menus later.
+    public GameObject levelFailed;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI carrotText;
+    public TextMeshProUGUI perfectText;
 
-
-    // public bool isGameActive = true; // Will get called to stop player and stuff later on
+    // OTHER VARIABLES
+    public bool isGameActive = true;
+    private int score;
     
-    // MENU ACTIVATORS
 
+    // MENU ACTIVATORS
     public void LevelComplete() {
+        isGameActive = false;
+        
         levelComplete.gameObject.SetActive(true);
-        // isGameActive = false;
+        scoreText.gameObject.SetActive(false);
+        if (score == 3)
+        {
+            perfectText.gameObject.SetActive(true);
+        }
     }
+    public void LevelFailed() {
+        if (!levelComplete.gameObject.activeSelf) // Prioritizes level completion over failure, just in case
+        {
+            levelFailed.gameObject.SetActive(true);
+            isGameActive = false;
+        }
+    }
+
+    // GAME UPDATES
+
+    public void UpdateScore(int addScore)
+    {
+        score += addScore;
+        scoreText.text = "Carrots: " +score;
+        carrotText.text = "Carrots collected: " +score;
+    }
+
 
     // SCENE LOADERS CONNECTED TO BUTTONS
     public void LoadNextScene()
