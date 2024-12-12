@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour
 
     private float horizontalInput;
     private float speed = 8;
-    private float jumpForce = 100;
-    private float gravityModifier = 1.5f;
+    private float jumpForce = 125;
+    private float gravityModifier = 1.6f;
 
     private bool isOnGround = true;
 

@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
     // MENU VARIABLES -- Assigned in Unity Interface
     public GameObject levelComplete;
     public GameObject levelFailed;
+    public GameObject gameUI;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI carrotText;
     public TextMeshProUGUI perfectText;
@@ -17,24 +18,31 @@ public class LevelManager : MonoBehaviour
     // OTHER VARIABLES
     public bool isGameActive = true;
     private int score;
+    private float gravityFixer = 1.6f;
     
 
     // MENU ACTIVATORS
     public void LevelComplete() {
-        isGameActive = false;
-        
-        levelComplete.gameObject.SetActive(true);
-        scoreText.gameObject.SetActive(false);
-        if (score == 3)
+        if (isGameActive)
         {
-            perfectText.gameObject.SetActive(true);
+            isGameActive = false;
+            Physics.gravity /= gravityFixer;
+            
+            levelComplete.gameObject.SetActive(true);
+            gameUI.gameObject.SetActive(false);
+            if (score == 3)
+            {
+                perfectText.gameObject.SetActive(true);
+            }
         }
     }
     public void LevelFailed() {
-        if (!levelComplete.gameObject.activeSelf) // Prioritizes level completion over failure, just in case
+        if (!levelComplete.gameObject.activeSelf && isGameActive) // Prioritizes level completion over failure, just in case
         {
-            levelFailed.gameObject.SetActive(true);
             isGameActive = false;
+            Physics.gravity /= gravityFixer;
+
+            levelFailed.gameObject.SetActive(true);
         }
     }
 

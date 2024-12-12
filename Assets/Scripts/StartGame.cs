@@ -5,8 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
-    // Get Camera -- Assigned in Unity Interface
+    // Get Objects -- Assigned in Unity Interface
     public GameObject mainCamera;
+    public GameObject titleMenu;
+    public GameObject controlsMenu;
+
+    private int moveDistance = 50;
 
     public void LoadScene()
     {
@@ -15,10 +19,14 @@ public class StartGame : MonoBehaviour
 
     public void viewControls()
     {
-        //Transform...
+        mainCamera.transform.Translate(Vector3.right * moveDistance);
+        controlsMenu.gameObject.SetActive(true);
+        titleMenu.gameObject.SetActive(false);
     }
     public void viewTitleScreen()
     {
-        //Transform...
+        mainCamera.transform.Translate(Vector3.right * -moveDistance);
+        titleMenu.gameObject.SetActive(true);
+        controlsMenu.gameObject.SetActive(false);
     }
 }
