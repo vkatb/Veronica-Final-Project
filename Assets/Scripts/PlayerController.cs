@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float speed = 8;
     private float jumpForce = 125;
+    private float bounceForce = 200;
     private float gravityModifier = 1.6f;
 
     private bool isOnGround = true;
@@ -63,6 +64,11 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(other.gameObject);
             levelManager.UpdateScore(1);
+        }
+        else if (other.gameObject.CompareTag("Bouncepad"))
+        {
+             playerRb.AddForce(Vector3.up * bounceForce, ForceMode.Impulse);
+             isOnGround = false;
         }
         else if (other.gameObject.CompareTag("Finish"))
         {

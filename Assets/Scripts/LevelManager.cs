@@ -67,7 +67,7 @@ public class LevelManager : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
-    public void Restart() // Currently Unused.
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
