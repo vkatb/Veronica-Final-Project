@@ -29,6 +29,7 @@ public class LevelManager : MonoBehaviour
             Physics.gravity /= gravityFixer;
             
             levelComplete.gameObject.SetActive(true);
+            carrotText.gameObject.SetActive(true);
             gameUI.gameObject.SetActive(false);
             if (score == 3)
             {
@@ -41,7 +42,8 @@ public class LevelManager : MonoBehaviour
         {
             isGameActive = false;
             Physics.gravity /= gravityFixer;
-
+            gameUI.gameObject.SetActive(false);
+            carrotText.gameObject.SetActive(true);
             levelFailed.gameObject.SetActive(true);
         }
     }

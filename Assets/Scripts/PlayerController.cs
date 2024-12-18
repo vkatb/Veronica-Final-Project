@@ -17,11 +17,17 @@ public class PlayerController : MonoBehaviour
 
     private bool isOnGround = true;
 
-    // PASSED VARIABLES/OBJECTS
-
+    // VARIABLES FOR CAMERA CONTROL
+    private float cameraSpeed = 10;
+    private float cameraReturnSpeed = 5;
+    private float cameraBoundsZ = 3;
+    private float cameraDefaultZ = -1.4f;
 
     // RECEIVED VARIABLES/OBJECTS
     private LevelManager levelManager; // LevelManager code
+    
+    // VARIABLES/OBJECTS ASSIGNED IN UNITY
+    public GameObject mainCamera;
 
 
     // Start is called before the first frame update
@@ -53,6 +59,37 @@ public class PlayerController : MonoBehaviour
                 isOnGround = false;
                 // playerAudio.PlayOneShot(jumpSound1, 1.0f);
             }
+
+            // Move Camera Up And Down:
+            
+            
+            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) // When pressing up
+            {
+                if (mainCamera.transform.localPosition.z > -cameraBoundsZ) { // if in bounds, move
+                    mainCamera.transform.Translate(Vector3.up * Time.deltaTime * cameraSpeed);
+                }
+                else if (mainCamera.transform.localPosition.z < -cameraBoundsZ) { //if not in bounds, go to limit
+                    mainCamera.transform.localPosition = new Vector3(mainCamera.transform.localPosition.x, mainCamera.transform.localPosition.y, -cameraBoundsZ);
+                }
+            }
+            
+            else if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)) // When pressing down (prioritizes pressing up, so you can't do both at once)
+            {
+                if (mainCamera.transform.localPosition.z < cameraBoundsZ) { // if in bounds, move
+                    mainCamera.transform.Translate(Vector3.down * Time.deltaTime * cameraSpeed);
+                }
+                else if (mainCamera.transform.localPosition.z > cameraBoundsZ) { //if not in bounds, go to limit
+                    mainCamera.transform.localPosition = new Vector3(mainCamera.transform.localPosition.x, mainCamera.transform.localPosition.y, cameraBoundsZ);
+                }
+            }
+
+            else // When not pressing
+            {
+                if (mainCamera.transform.localPosition.z != cameraDefaultZ) { // if not at default, set to default
+                    mainCamera.transform.localPosition = new Vector3(mainCamera.transform.localPosition.x, mainCamera.transform.localPosition.y, cameraDefaultZ);
+                }
+            }
+
         }
 
     } // Update ends
@@ -64,11 +101,6 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(other.gameObject);
             levelManager.UpdateScore(1);
-        }
-        else if (other.gameObject.CompareTag("Bouncepad"))
-        {
-             playerRb.AddForce(Vector3.up * bounceForce, ForceMode.Impulse);
-             isOnGround = false;
         }
         else if (other.gameObject.CompareTag("Finish"))
         {
@@ -87,6 +119,11 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
+        }
+        else if (collision.gameObject.CompareTag("Bouncepad"))
+        {
+             playerRb.AddForce(Vector3.up * bounceForce, ForceMode.Impulse);
+             isOnGround = false;
         }
 
     } // OnCollisionEnter ends

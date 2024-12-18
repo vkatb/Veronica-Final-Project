@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3658235432158836448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7393863275451605971}
+  m_Layer: 0
+  m_Name: Evil Carrot Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7393863275451605971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3658235432158836448}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5027948170133702733}
+  - {fileID: 1303001242627010867}
+  - {fileID: 4868865053986147746}
+  - {fileID: 7595977485794879541}
+  - {fileID: 5542455649571237739}
+  - {fileID: 6565734484331491689}
+  - {fileID: 2744183927648728229}
+  - {fileID: 4030249578255472139}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &459845529992768290
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 21.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &2744183927648728229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 459845529992768290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1700862093299173772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &4030249578255472139 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 1700862093299173772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3630410470579465908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &1303001242627010867 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 3630410470579465908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5268836543144441778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &7595977485794879541 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 5268836543144441778}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7198249004755046949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &4868865053986147746 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 7198249004755046949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7327958662833936330
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &5027948170133702733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 7327958662833936330}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7826760963161288940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &5542455649571237739 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 7826760963161288940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8893152508240719598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7393863275451605971}
+    m_Modifications:
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25119948
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9679354
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.903
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858258732843836444, guid: dbf252623bd83aa4699986449343f068, type: 3}
+      propertyPath: m_Name
+      value: Carrot Evil (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dbf252623bd83aa4699986449343f068, type: 3}
+--- !u!4 &6565734484331491689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2338775223246233479, guid: dbf252623bd83aa4699986449343f068, type: 3}
+  m_PrefabInstance: {fileID: 8893152508240719598}
+  m_PrefabAsset: {fileID: 0}
